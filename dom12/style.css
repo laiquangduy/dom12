@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#success {
+    color: rgb(36, 205, 217);
+    background-color: aquamarine;
+    
+    
+}
+
+.md {
+    font-size: 20px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.login {
+    background-color: pink;
+    border: none;
+    width: 100px;
+    height: 25px;
+    color: white;
+    margin-top: 10px;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+
+.login:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+#form {
+    text-align: center;
+}
+#input {
+    margin: 5px;
+}
+#title {
+    justify-content: flex-start;
+}
+
+#er-password,
+#er-email{
+    color: red;
+}
+
+input {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+}
